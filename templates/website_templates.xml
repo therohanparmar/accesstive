@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="layout_accesstive_script" inherit_id="website.layout" name="Accesstive Script Injection">
+            <xpath expr="//body" position="inside">
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        console.log('Accesstive widget loaded successfully!');
+                    });
+                </script>
+                <!-- <script async="async" src="https://cdn.accesstive.com/assistance.js"></script> -->
+            </xpath>
+        </template>
+    </data>
+</odoo>
