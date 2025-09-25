@@ -8,7 +8,7 @@
                         console.log('Accesstive widget loaded successfully!');
                     });
                 </script>
-                <!-- <script async="async" src="https://cdn.accesstive.com/assistance.js"></script> -->
+                <script async="async" src="https://cdn.accesstive.com/assistance.js"></script>
             </xpath>
         </template>
     </data>
